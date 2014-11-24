@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cmake \
+  -DWITH_FRIBIDI=NO \
+  -DWITH_CAIRO=NO \
+  -DWITH_FCGI=NO \
+  -DWITH_GIF=NO \
+  -DWITH_CLIENT_WMS=YES \
+  -DWITH_CLIENT_WFS=YES \
+  -DBUILD_STATIC=1 \
+  -DLINK_STATIC_LIBMAPSERVER=1 \
+  ../src/mapserver-*
