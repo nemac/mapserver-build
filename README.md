@@ -32,7 +32,7 @@ Then create an empty `build` directory
 From inside the `src` directory, unpack the source tar file:
 
     cd src
-    tar xvfz ../mapserver-6.4.1.tar.tgz
+    tar xvfz ../mapserver-6.4.1.tar.gz
     
 Then, from inside the `build` directory, run the `do_cmake` script
 
